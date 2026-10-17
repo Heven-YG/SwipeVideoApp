@@ -74,6 +74,20 @@ public class MainActivity extends AppCompatActivity {
                 "Fornier makes a Basket."
         ));
 
+        videoItems.add(new VideoItem(
+                "004",
+                "https://raw.githubusercontent.com/Heven-YG/DemoVideos/main/video4.MP4",
+                "Sun flares",
+                "New sun flares effects"
+        ));
+
+        videoItems.add(new VideoItem(
+                "005",
+                "https://raw.githubusercontent.com/Heven-YG/DemoVideos/main/video5.MP4",
+                "Sharks",
+                "Sharks holding their breath"
+        ));
+
         videoAdapter = new VideoAdapter(videoItems);
 
         videosViewPager.setOrientation(
